@@ -1,5 +1,11 @@
 Revision history for Perl extension Language::Ook.
 
+0.02  Sat Feb 22 12:17:03 CET 2003
+        - now using a Perl eval: compiling is much better than
+          interpreting.
+        - compiling is now forgiving when ook source contains comments
+          (that is, chars not matching /Ook. Ook. /)
+
 0.01  Sun Oct  6 10:59:36 CEST 2002
 	- original version
 
