@@ -1,5 +1,10 @@
 Revision history for Perl extension Language::Ook.
 
+0.03  Sat Feb 22 20:02:49 CET 2003
+        - forgot to update MANIFEST with test.ook so distrib did not
+          include the file... Thanks cpantesters! :-)
+        - ook examples now in src directory
+
 0.02  Sat Feb 22 12:17:03 CET 2003
         - now using a Perl eval: compiling is much better than
           interpreting.

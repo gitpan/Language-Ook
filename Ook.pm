@@ -1,4 +1,4 @@
-# $Id: Ook.pm,v 1.2 2003/02/22 10:32:39 jquelin Exp $
+# $Id: Ook.pm,v 1.3 2003/02/22 19:08:14 jquelin Exp $
 #
 # Copyright (c) 2002 Jerome Quelin <jquelin@cpan.org>
 # All rights reserved.
@@ -39,7 +39,7 @@ Ook! is bijective with BrainFuck, and thus, Turing-complete.
 use strict;
 use warnings;
 use Carp;
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 
 =head1 CONSTRUCTOR
