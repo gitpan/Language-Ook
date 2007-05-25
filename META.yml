@@ -1,16 +1,16 @@
 ---
 name: Language-Ook
-version: 1.0.0
+version: 1.0.1
 author:
   - 'Jerome Quelin <jquelin@cpan.org>'
 abstract: a Ook! interpreter.
-license: gpl
+license: perl
 resources:
-  license: http://www.opensource.org/licenses/gpl-license.php
+  license: http://dev.perl.org/licenses/
 provides:
   Language::Ook:
     file: lib/Language/Ook.pm
-    version: 1.0.0
+    version: 1.0.1
 generated_by: Module::Build version 0.2806
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
