@@ -8,6 +8,8 @@
 #
 #
 
+BEGIN { require 5.006; }
+
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
@@ -18,7 +20,9 @@ WriteMakefile(
     VERSION_FROM        => 'lib/Language/Ook.pm',
     ABSTRACT_FROM       => 'lib/Language/Ook.pm',
     LICENSE             => 'perl',
-    PREREQ_PM           => {},
+    PREREQ_PM           => {
+        'Test::More'    => 0,
+    },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => [
                 'Language-Ook-*',

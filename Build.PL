@@ -20,8 +20,17 @@ my $builder = Module::Build->new (
     add_to_cleanup => [
                 'Language-Ook-*',
                 map { ( '*/' x $_ ) . '*~' } 0..3 ],
-    build_requires => { },
-    requires       => { },
+    build_requires => {
+        'Test::More'    => 0,
+        'perl'          => '5.006',
+    },
+    requires       => {
+        'perl'          => '5.006',
+    },
+    recommends     => {
+        'Test::Pod'           => 0,
+        'Test::Pod::Coverage' => 0,
+    },
 );
 
 $builder->create_build_script();

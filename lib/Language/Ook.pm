@@ -39,7 +39,7 @@ Ook! is bijective with BrainFuck, and thus, Turing-complete.
 use strict;
 use warnings;
 use Carp;
-our $VERSION = '1.0.1';
+our $VERSION = '1.0.2';
 
 
 =head1 CONSTRUCTOR
